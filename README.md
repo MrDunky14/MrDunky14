@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00C7B7&center=true&vCenter=true&width=800&lines=First-Year+B.Tech+IT+%40+SLRTCE;Native+C%2B%2B+%26+Systems+Architect;Building+Neuromorphic+Spiking+Neural+Networks;CODM+Master+II+%7C+Bansuri+Player" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00C7B7&center=true&vCenter=true&width=850&lines=Second-Year+B.Tech+IT+%40+SLRTCE;AI+Systems+%26+Low-Level+C%2B%2B+Engineer;Winner+%E2%80%94+Eureka!+2026+%40+IIT+Bombay;CODM+Master+II+%7C+Bansuri+Player" alt="Typing SVG" />
   </a>
 </p>
 
@@ -14,60 +14,69 @@
 
 ---
 
-## 👨‍💻 The Architect's Blueprint
+## 👨‍💻 Systems Architecture & Engineering
 
-I don't just use frameworks; **I build the engines.** As a first-year IT engineering student, my focus is on the "metal"—from optimizing custom GBA emulation cores to architecting neuromorphic AI systems. I thrive in high-pressure hackathons and love squeezing every drop of performance out of silicon.
+Second-Year B.Tech IT undergraduate at SLRTCE (Mumbai), focused on low-level systems engineering, GPU compute kernels (DirectX 12 / HLSL / CUDA), and neuromorphic computing architectures. I build hardware-adjacent inference engines, high-performance memory cores, and optimized emulation runtimes.
 
-* 🧠 **Currently Architecting:** `FP-SAN` (Fixed-Point Spiking Asynchronous Network)
-* 🚀 **Latest Milestone:** Built `MYELIN-SR`, a native C++ neural inference engine (sub-250ms for 2x image upscaling)
-* 🛠️ **Dev Environment:** VS Code for logic, Android Studio for engine building & deployment
-* 🎮 **Off-Screen:** Mastering the C Natural Major scale on the Bansuri & grinding CODM (Master II)
-
----
-
-## 💻 The Tech Arsenal
-
-**Languages & Core Tech** <br/>
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Neuromorphic Computing](https://img.shields.io/badge/Neuromorphic_AI-000000?style=for-the-badge&logo=openai&logoColor=white)
-
-**Tools & Workflows** <br/>
-![VS Code](https://img.shields.io/badge/VS%20Code-0078D4.svg?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) 
+* 🧠 **Flagship Systems Project:** [`MYELIN-SR`](https://github.com/MrDunky14/MYELIN-SR) — DirectX 12 1.58-bit ternary vs. native FP16 super-resolution engine (**8.60 ms / 116.3 FPS** at 1080p, **16.00 ms / 62.5 FPS** at 1440p on RTX 5050; verified 1-ULP PyTorch parity).
+* 🔬 **Neuromorphic AI:** [`FP-SAN`](https://github.com/MrDunky14/FP-SAN) — Fixed-Point Spiking Asynchronous Network for sub-milliwatt edge devices.
+* 🏆 **Startup & Leadership:** CTO & Lead Dev — **Winner of Eureka! 2026 (E-Cell, IIT Bombay)**.
+* 🎮 **Off-Screen:** Mastering the C Natural Major scale on the Bansuri & grinding CODM (Master II).
 
 ---
 
-## 🔥 Current Projects & Deployments
+## 💻 Technical Stack
 
-| Project | Description | Tech/Focus |
+**Systems, GPU & Core Languages** <br/>
+![C++17/20](https://img.shields.io/badge/C%2B%2B17%2F20-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![DirectX 12](https://img.shields.io/badge/DirectX_12-0078D4.svg?style=for-the-badge&logo=windows&logoColor=white)
+![HLSL](https://img.shields.io/badge/HLSL_SM_6.2-107C41.svg?style=for-the-badge&logo=microsoft&logoColor=white)
+![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux_Mint-87CF3E?style=for-the-badge&logo=linuxmint&logoColor=white)
+
+**Tooling & Hardware Platforms** <br/>
+![Visual Studio](https://img.shields.io/badge/Visual_Studio_2026-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
+![MSVC / Clang](https://img.shields.io/badge/MSVC_%2F_Clang-000000.svg?style=for-the-badge&logo=llvm&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C.svg?style=for-the-badge&logo=cmake&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white)
+![NVIDIA RTX](https://img.shields.io/badge/NVIDIA_RTX_5050-76B900.svg?style=for-the-badge&logo=nvidia&logoColor=white)
+
+---
+
+## 🔥 Featured Systems Projects
+
+| Project | Focus & Architecture | Validated Performance / Impact |
 | :--- | :--- | :--- |
-| **MYELIN-SR** | Native C++ neural inference engine built from scratch. | Memory Management, Sub-250ms Execution |
-| **FP-SAN** | Highly efficient, fixed-point neuromorphic network. | Spiking Neural Networks (SNNs) |
-| **Aqua-RUL** | AI-driven predictive civic-tech model for water management. | Generative AI, Predictive Modeling |
-| **Mi Box 4K Emulation** | Custom GBA emulator port tailored for Android TV hardware constraints. | C++, Android Studio, UI/UX |
-| **StudiOS** | Gamified learning platform PWA with RPG elements. | Web Tech, Gamification |
+| [**MYELIN-SR**](https://github.com/MrDunky14/MYELIN-SR) | Real-time 2× Super-Resolution engine in DirectX 12 (HLSL SM 6.2). 1.58-bit ternary vs. native FP16 (`HFMA2`) roofline analysis. | **8.60 ms (116.3 FPS)** at 1080p, **16.00 ms (62.5 FPS)** at 1440p (RTX 5050). Exact 1-ULP PyTorch parity. |
+| [**FP-SAN**](https://github.com/MrDunky14/FP-SAN) | Fixed-Point Spiking Asynchronous Network for low-power neuromorphic edge deployments. | Zero floating-point multiplication in compute path. |
+| [**Engram-Core**](https://github.com/MrDunky14/Engram-Core) | Hierarchical memory core with biologically-inspired state transitions and deterministic indexing. | High-throughput in-memory state preservation. |
+| [**Aegis-Voice**](https://github.com/MrDunky14/Team-r8Bay_AshishTiwari) | Low-latency telephony triage core with streaming speech pipeline and zero-disk RAM guarantees. | Sub-250ms glass-to-glass latency. |
+| [**Maya-GBA**](https://github.com/MrDunky14/Mi-Box-4k-Emulation) | Custom GBA emulation core ported and optimized for low-spec Android TV hardware constraints. | 60 FPS locked under thermal throttling. |
 
 ---
 
-## 🏆 The Trophy Room
+## 🏆 Honors, Awards & Hackathons
 
-* 🥇 **National Finalist (Top 800 / 31,000+ Teams):** OpenEnv AI Hackathon (Meta x Hugging Face x Scaler)
-* 🥈 **2nd Place Podium:** Meta Summit - Meta Buzz @ SLRTCE
-* 🦅 **Finale Qualifier:** International UAI HAWK-ATHON
-* 🏅 **Top Tier Teams:** NEOFuture Hackathon (IEEE Maharashtra)
-* 🏅 **24-Hour Survivor:** JARVIS 2025 Hybrid Hackathon
-* 🏅 **Round 1 Clear:** HP Power Lab 2.0 & National Hackathon 360° 2.0
-
----
-
-## ⚡ Battle Station (My Rig)
-
-Because a systems dev needs their hardware:
-* **CPU:** Intel i5-9400F 
-* **GPU:** NVIDIA GTX 1650 (8GB RAM)
-* **MOBO:** GIGABYTE B365M DS3H 
+* 🏆 **Winner — Eureka! 2026 (E-Cell, IIT Bombay):** 1st Place / CTO & Lead Developer (Asia's largest business model competition).
+* 🥈 **2nd Place Podium:** Meta Summit - Meta Buzz @ SLRTCE.
+* 🏅 **OpenEnv AI Hackathon (Meta x Hugging Face x Scaler):** Top 800 / 31,000+ Teams.
+* 🦅 **Finale Qualifier:** International UAI HAWK-ATHON.
+* 🏅 **Top Tier Finalist:** NEOFuture Hackathon (IEEE Maharashtra).
+* 🏅 **Hackathon Participant:** ISRO Bharatiya Antariksh Hackathon '26.
 
 ---
 
-## 📊 GitHub Analytics
+## ⚡ Battle Station
+
+Systems development tested across heterogeneous hardware architectures:
+* **Primary Rig (Lenovo LOQ):** Intel Core i7-14700HX (20C/28T, up to 5.5 GHz), NVIDIA GeForce RTX 5050 Laptop GPU (8GB VRAM), Dual-Boot (Linux Mint / Windows 11).
+* **Bench Rig:** Intel Core i5-9400F, NVIDIA GeForce GTX 1650 (Turing TU117), GIGABYTE B365M DS3H.
+
+---
+
+## 📊 GitHub Telemetry
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=MrDunky14&theme=radical&hide_border=false&include_all_commits=true&count_private=true" width="48%">
@@ -78,18 +87,13 @@ Because a systems dev needs their hardware:
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=MrDunky14&theme=radical&hide_border=false" width="100%">
 </p>
 
-### 📈 System Activity & Telemetry
+### 📈 System Activity
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=MrDunky14&theme=react-dark&hide_border=true&area=true&color=00C7B7&line=00C7B7&point=FFFFFF" width="100%">
 </p>
 
 ---
-### 🌃 Cyberpunk Contribution City
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MrDunky14/MrDunky14/main/profile-3d-contrib/profile-night-view.svg" width="100%">
-</p>
 
----
 <p align="center">
   <b>Visitor Count</b><br>
   <img src="https://komarev.com/ghpvc/?username=MrDunky14&style=flat-square&color=blueviolet&label=Profile+Views" alt="Views">
