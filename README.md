@@ -52,8 +52,8 @@ Second-Year B.Tech IT undergraduate at SLRTCE (Mumbai), focused on low-level sys
 
 | Project | Focus & Architecture | Validated Performance / Impact |
 | :--- | :--- | :--- |
-| [**MYELIN-SR**](https://github.com/MrDunky14/MYELIN-SR) | Real-time 2× Super-Resolution engine in DirectX 12 (HLSL SM 6.2). 1.58-bit ternary addition-only vs. native FP16 (`HFMA2`) roofline analysis. | **8.60 ms (116.3 FPS)** at 1080p, **16.00 ms (62.5 FPS)** at 1440p (RTX 5050); **69+ FPS** on GTX 1650. Exact 1-ULP PyTorch parity. |
-| [**Engram-Core**](https://github.com/MrDunky14/Engram-Core) | Spreading-activation graph store & real-time edge runtime in C++23. Lock-free Treiber neurogenesis, reader-quiesced (RQS) reclamation, seqlock snapshots, and 1,000 Hz hybrid timer. | **22.9M triples/s ingest**, **100 ns 2-hop traversal** (7.0× faster than SQLite), **47 MB** demand-paged VirtualAlloc RSS, 0 torn invariants over 76M+ ops. |
+| [**MYELIN-SR**](https://github.com/MrDunky14/MYELIN-SR) | Real-time 2× Super-Resolution engine in DirectX 12 (HLSL SM 6.2). 1.58-bit ternary addition-only vs. native FP16 (`HFMA2`) roofline analysis. | **8.60 ms (116.3 FPS)** at 1080p, **16.00 ms (62.5 FPS)** at 1440p (RTX 5050; Turing profiling underway). Exact 1-ULP PyTorch parity. |
+| [**Engram-Core**](https://github.com/MrDunky14/Engram-Core) | Spreading-activation graph store & real-time edge runtime in C++23. Lock-free Treiber neurogenesis, reader-quiesced draining (`std::shared_mutex`), seqlock snapshots, and 1,000 Hz hybrid timer. | **22.9M triples/s ingest**, **100 ns 2-hop traversal** (7.0× faster than SQLite), **47 MB** demand-paged VirtualAlloc RSS, 0 torn invariants over 76M+ ops. |
 | [**SREBench**](https://github.com/MrDunky14/SREBench) | OpenEnv benchmark for autonomous incident triage across a 6-service microservice DAG. Fast stochastic state-machine simulator with anti-exploit reward hardening (shotgun restart penalties, causal investigation gates). | **1,000+ eps/s**, 22/22 pytest suite, verified baseline receipts across 1,950 episodes (Random 20.2% vs. Heuristic 97.7% vs. Oracle 100%). Finalist — Meta × Hugging Face × Scaler OpenEnv Hackathon. |
 | [**FP-SAN**](https://github.com/MrDunky14/FP-SAN) | Fixed-Point Spiking Asynchronous Network for low-power neuromorphic edge deployments. 1.58-bit ternary architecture solving catastrophic forgetting. | **91.85% retention**, zero floating-point multiplication in compute path, ultra-compact 0.08 MB footprint. |
 | [**Aegis-Voice**](https://github.com/MrDunky14/aegis-voice-triage) | Sovereign multimodal speech emotion recognition & urgency triage core for 1930 cybercrime telephony. DPDP Act zero-disk RAM guarantees. | **Sub-250ms glass-to-glass latency** (231.5 ms verified). Live GitHub Pages console. |
@@ -64,7 +64,7 @@ Second-Year B.Tech IT undergraduate at SLRTCE (Mumbai), focused on low-level sys
 ## 🏆 Honors, Awards & Hackathons
 
 * 🏆 **Winner — Eureka! 2026 (E-Cell, IIT Bombay):** 1st Place / CTO & Lead Developer (Asia's largest business model competition).
-* 🏅 **OpenEnv AI Hackathon (Meta x Hugging Face x Scaler):** Finalist (Top 800 / 31,000+ Teams).
+* 🏅 **OpenEnv AI Hackathon (Meta × Hugging Face × Scaler):** Finalist.
 * 🥈 **2nd Place Podium:** Meta Summit - Meta Buzz @ SLRTCE.
 * 🦅 **Finale Qualifier:** International UAI HAWK-ATHON.
 * 🏅 **Top Tier Finalist:** NEOFuture Hackathon (IEEE Maharashtra).
